@@ -1,54 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title> Магазин экологичной мебели	</title>
+		<meta charset="utf-8">
+	<title>Деревянные лестницы</title>
 	
-	<link rel="stylesheet" href="css.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <header>
-    <img id="f1" src="садмеб1.jpg" width="1000" height="300" hspace="25" vspace="5"  alt="Столы">
-  <section><h1> Добро пожаловать в мебельный интернет-магазин для гурманов! </h1> </section>
-  </header>
-<nav>
-    <ul>
-        <li>Главная</li>
-        <li>Новости</li>
-        <li>О нас</li>
-    </ul>
-</nav>
-<aside>
-   <p>Спальни</p>
-   <p>Шкафы</p>
-   <p>Кухни</p>
-  </aside>
-  <article>
-<dl>
-	<dt><section><h2>Наша философия:</h2></section></dt>
-	<dd><p>экологичность, бескомпромиссное качество, абсолютный стиль, натуральные материалы и честные цены.</p></dd>
-	<dt><section><h2>Наша цель</h2></section></dt>
-	<dd> <p>– доказать, что украинская мебель может успешно конкурировать с мировыми брендами как по дизайну, так и по качеству исполнения, а по соотношению цены и качества бесспорно превосходит их.</p></dd>
-	<dt><section><h2>Наша гордость</h2></section></dt>
-	<dd><p>– пожалуй, самый большой в Украине ассортимент отличной мебели из настоящего дерева. Наша деревянная мебель действительно изготовлена из массива бесценного украинского дуба, ясеня, бука, березы, сосны. Наша команда разрушает стереотипы и доказывает, что деревянная мебель может быть не просто современной, а ультрасовременной </p></dd>
-</dl>
+	<nav>
+		<menu>
+			<li><a href="Index.html">О магазине</a></li>
+			<li><a href="page2.html">Оплата</a></li>
+			<li><a href="Index.html">Доставка</a></li>
+			<li><a href="page2.html">Пункты выдачи</a></li>
+		</menu>
+	</nav>
+	
+	<header>
+		<div class="sitename">Магазин мебели ОНЛАЙН</div>
+	</header>
+
+	<main>
+		<menu>
+			<li><a href="Index.html">Столы</a></li>
+			<li><a href="page2.html">Стулья</a></li>
+			<li><a href="Index.html">Шкафы</a></li>
+			<li><a href="page2.html">Кровати</a></li>
+			<li><a href="Index.html">Корпусная мебель</a></li>
+			<li><a href="page2.html">Деревянные лестницы</a></li>
+		</menu>
+	</main>
+
+
+
+<article>
+	
+	<div class="carousel slide" id='locations' data-ride='carousel'>
+		<div class="carousel-inner">
+			<ol class="carousel-indicators">
+			    <li data-target="#locations" data-slide-to="0" class="active"></li>
+			    <li data-target="#locations" data-slide-to="1"></li>
+			    <li data-target="#locations" data-slide-to="2"></li>
+			</ol>
+			<div class="item active"><img src="slide1.png" alt=""></div>
+			<div class="item"><img src="slide2.png" alt=""></div>
+			<div class="item"><img src="slide3.png" alt=""></div>
+		<a href="#locations" class="carousel-control right" data-slide='prev'><span class="glyphicon glyphicon-chevron-right"></span></a>
+		<a href="#locations" class="carousel-control left" data-slide='next'><span class="glyphicon glyphicon-chevron-left"></span></a>
+		</div>
+	</div>
+	
 </article>
-<dl>
-	<img src="стол из дуба 2.png" hspace="25" vspace="5"  alt="Столы" align="right">
-	<dt><section><h3>Популярные категории</h3></section></dt>
-	<dd>
-		<ul type='square'>
-			<li><p class="cite"><a href="#f1">Шкафы из дерева<a/></p></li>
-			<li><p class="cite"><a href="#f2">Корпусная мебель<a/></p></li>
-			<li><p class="cite"><a href="#f3">Столы и стулья<a/></p></li>
-			<li><p class="cite"><a href="#f4">Кровати из дуба<a/></p></li>
-			<li><p class="cite"><a href="#f5">Стулья из дерева<a/></p></li>
-			<li><p class="cite"><a href="page2.html">Деревянные лестницы <a/></p></li>
-	</dd>
-</dl>
-<footer><small>Copyright &copy; <time datetime="2018">2018</time> Иваницкая Виктория</small> </footer>
+<article>
+	<div class="about">
+		<p> 
+		<h3>Наша философия:</h3>
+		экологичность, бескомпромиссное качество, абсолютный стиль, натуральные материалы и честные цены.
+		<h3>Наша цель:</h3>
+		доказать, что украинская мебель может успешно конкурировать с мировыми брендами как по дизайну, так и по качеству исполнения, а по соотношению цены и качества бесспорно превосходит их.
+		<h3>Наша гордость:</h3>
+		пожалуй, самый большой в Украине ассортимент отличной мебели из настоящего дерева. Наша деревянная мебель действительно изготовлена из массива бесценного украинского дуба, ясеня, бука, березы, сосны. Наша команда разрушает стереотипы и доказывает, что деревянная мебель может быть не просто современной, а ультрасовременной 
+		</p>
+	</div>
+</article>
+
+<footer>
+	<li>Наши магазины по всей Украине
+	Киев, Львов, Одесса, Днепр, Харьков, Запорожье и еще 14 городов</li>
+	<li>24/7
+	0 800 507 800</li>
+	<li>Бесплатно с мобильных и стационарных телефонов в Украине на номер 0 800 507 800</li>
+</footer>
 </body>
 </html>
-<!-- 123 -->

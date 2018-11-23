@@ -115,7 +115,7 @@ h2{
 	}
 	
 footer {
-	padding: 1%;
+	padding: 1% 2%;
 	background: #343a40;
 	width: 80%;
 	margin: auto;
@@ -124,8 +124,9 @@ footer {
 
 footer li {
 	list-style: none; /* меню без точечек*/
-	display: inline-block; /* отображается как строчний элемент*/
+	
 	margin-right: 1%; /*отступ между названиями*/
-	color: #343a40;
+	color: rgba(255, 255, 255, 0.8);
+	
 	
 }
