@@ -1,0 +1,43 @@
+h1 { 
+    font-size: 200%; 
+    font-family: "Times New Roman",Georgia, sans-serif; 
+    text-align: center;
+    color: #000080;
+   }
+   h2 {
+   font-size: 130%; 
+    font-family: "Times New Roman",Georgia, sans-serif; 
+    color: #000080;	
+   }
+    p {
+    color: rgb(0, 0, 0); 
+   }
+   h3 {
+   	font-size: 120%; 
+    font-family: "Times New Roman",Georgia, sans-serif; 
+    text-indent: 40px;
+    color: #008080;	
+   }
+   p.cite {
+   	color: rgb(0, 0, 0);
+   }
+   dt {
+   	text-indent: 2%;
+   }
+   dd {
+   	text-indent: 3%;
+   	text-align: justify;
+   }
+   p {
+   	text-align: justify;
+   }
+    aside {
+    background: #f0f0f0;
+    padding: 10px;
+    width: 200px;
+    float: right;
+   }
+   article {
+    margin-right: 240px;
+    display: block;
+   }

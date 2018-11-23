@@ -1,0 +1,64 @@
+* {
+	margin: 0; /* отступ от всех блоков*/
+}
+body {
+	background: #e3ebec;
+}
+h1{
+	text-align: center;
+}
+header {
+	padding: 1%; /*отступ внутри блока*/
+	background: #e4e4e4;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 2%; /*отступ снизу*/
+}
+main{ /*блок в котором лежит меню*/
+	background:#d7d1d1;
+	padding: 1%;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 2%;
+
+}
+menu li {
+	list-style: none; /* меню без точечек*/
+	display: inline-block; /* отображается как строчний элемент*/
+	margin-right: 1%; /*отступ между названиями*/
+}
+a {
+	text-decoration: none; /* без потчеркиваний*/
+	color: #723f3f;
+	font-family: cursive;
+	font-size: 120%;
+	font-weight: 600;
+
+}
+article {
+	width: 80%;
+	margin: auto;
+	margin-bottom: 2%;
+	min-height: 90%;
+	background: #e4dada;
+	padding: 1%;
+}
+img {
+	margin-left: 15%;
+}
+p {
+	text-indent: 5%;
+	text-align: justify;
+	font-family: ariel;
+	font-size: 110%;
+	margin: auto;
+}
+h2{
+	text-align: center;
+	background: #d8cbcbb3;
+	color: #481c19b3;
+	text-transform: uppercase;
+	font-size: 50%;
+	font-family: ariel;
+	margin: auto;
+}
