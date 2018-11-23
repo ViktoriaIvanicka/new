@@ -136,17 +136,15 @@ footer {
 
 footer li {
 	list-style: none; /* меню без точечек*/
-	
 	margin-right: 1%; /*отступ между названиями*/
 	color: rgba(255, 255, 255, 0.8);
-	
-	
-}
+	}
 
 .catalog {
 	width: 90%;
-	margin: 0 auto;
-	padding: 20px 20px 0 0;
+	margin-left: 100px;
+    margin-right: auto;
+	padding: 20px 0 0 0;
 	min-height: 90%;
 }
 
@@ -157,7 +155,9 @@ footer li {
 }
 
 .catalog li img {
-	border-radius: 10px 10px 0 0; 
+	border-radius: 10px 10px 0 0;
+	width: 256px;
+	height: 256px;
 }
 
 .descr {
@@ -178,5 +178,15 @@ footer li {
 	margin-right: 0;
 	max-width: 6em;
 	border-radius: 0 0 10px 10px;
+}
+
+.cat_name {
+	text-align: center;
+	color: #481c19b3;
+	text-transform: uppercase;
+	font-size: 200%;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin: 20px 20px 0;
+	font-weight: 600;	
 }
 
