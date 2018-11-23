@@ -37,6 +37,18 @@ nav {
 	margin-bottom: auto;
 }
 
+.sitename a {
+	text-decoration: none; /* без потчеркиваний*/
+	font-size: 100%;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.sitename a:hover {
+	text-decoration: none; /* без потчеркиваний*/
+	font-size: 100%;
+	color: rgba(0, 0, 0, 0.8);
+}
+
 main{ /*блок в котором лежит меню*/
 	background:#bac781;
 	padding: 1%;
@@ -130,3 +142,41 @@ footer li {
 	
 	
 }
+
+.catalog {
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px 20px 0 0;
+	min-height: 90%;
+}
+
+.catalog li {
+	list-style: none; /* меню без точечек*/
+	display: inline-block; /* отображается как строчний элемент*/
+	margin-right: 1%; /*отступ между названиями*/
+}
+
+.catalog li img {
+	border-radius: 10px 10px 0 0; 
+}
+
+.descr {
+	background: #bac781;
+	padding: 5px;
+	border-radius: 0 0 0 10px; 
+}
+.price {
+	text-decoration: none; /* без потчеркиваний*/
+	font-size: 140%;
+	background: white;
+	color: rgba(0, 0, 0, 0.8);
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: 0;
+	max-width: 6em;
+	border-radius: 0 0 10px 10px;
+}
+
