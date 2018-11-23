@@ -2,18 +2,42 @@
 	margin: 0; /* отступ от всех блоков*/
 }
 body {
-	background: #e3ebec;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
 }
 h1{
 	text-align: center;
 }
 header {
-	padding: 1%; /*отступ внутри блока*/
-	background: #e4e4e4;
+	padding-bottom: 15%; /*отступ внутри блока*/
+    background: url(header.jpg) no-repeat center/cover;
 	width: 80%;
 	margin: auto;
-	margin-bottom: 2%; /*отступ снизу*/
+	margin-bottom: 1%; /*отступ снизу*/
 }
+
+.sitename {
+	background: rgba(255, 255, 255, 0.9);
+	padding: 10px 2px;
+	border-radius: 0px 0px 30px 30px;
+	text-align: center;
+	font-size: 200%;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	width: 50%;
+	margin: auto;
+	text-transform: uppercase;
+}
+
+nav {
+	padding: 1%;
+	background: #343a40;
+	width: 80%;
+	margin: auto;
+	margin-bottom: auto;
+}
+
 main{ /*блок в котором лежит меню*/
 	background:#d7d1d1;
 	padding: 1%;
@@ -29,11 +53,13 @@ menu li {
 }
 a {
 	text-decoration: none; /* без потчеркиваний*/
-	color: #723f3f;
-	font-family: cursive;
 	font-size: 120%;
+	color: rgba(255, 255, 255, 0.8);
 	font-weight: 600;
-
+}
+a:hover {
+	text-decoration: none; /* без потчеркиваний*/
+	color: rgba(255, 255, 255, 1);
 }
 article {
 	width: 80%;
@@ -43,8 +69,10 @@ article {
 	background: #e4dada;
 	padding: 1%;
 }
+
+
 img {
-	margin-left: 15%;
+	margin: 0 auto;
 }
 p {
 	text-indent: 5%;
@@ -62,3 +90,26 @@ h2{
 	font-family: ariel;
 	margin: auto;
 }
+
+
+/*МЕНЮ*/
+
+ #navbar {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        width: 100px;
+      }
+      #navbar li {
+        border-left: 10px solid #666;
+        border-bottom: 1px solid #666;
+      }
+      #navbar a {
+        background-color: #949494;
+        color: #fff;
+        padding: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        border-left: 5px solid #33ADFF;
+        display: block;
+      }
